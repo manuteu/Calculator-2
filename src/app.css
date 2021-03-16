@@ -1,0 +1,81 @@
+.screen {
+  display: grid;
+  grid-template-rows: 8fr 84fr 8fr;
+  grid-template-columns: 35fr 30fr 35fr;
+  height: 100vh;
+}
+
+.calculator {
+  grid-column: 2;
+  grid-row: 2;
+  border: 1px solid rgb(0, 95, 95);
+  border-radius: 2%;
+  padding: 2em;
+  max-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.divSuperior {
+  background-color: rgb(179, 215, 245);
+}
+
+.divInferior {
+  background-color: rgb(179, 215, 245);
+}
+
+.divLateral {
+  background-color: rgba(179, 215, 245, 0.116);
+}
+
+.button {
+  color: rgb(0, 73, 73);
+  font-weight: bold;
+  display: grid;
+  margin: 1.2em;
+  place-items: center;
+  width: 2.6em;
+  height: 2.6em;
+  border-radius: 5px;
+  min-width: 1em;
+  background-color: rgba(0, 177, 177, 0.103);
+  cursor: pointer;
+}
+.buttonsConteiner {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid teal;
+  border-radius: 2%;
+  /* background-color: rgba(127, 89, 148, 0.295); */
+}
+.display {
+  display: flex;
+  justify-content: flex-end;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 1px solid teal;
+  border-radius: 4px;
+  margin-top: -10px;
+}
+
+.disabled {
+  background-color: rgb(255, 133, 133);
+}
+.changeColor {
+  background-color: rgb(255, 133, 133);
+}
+
+.title {
+  margin-top: -45px;
+  font-size: 250%;
+  font-family: cursive;
+  text-align: center;
+  color: rgb(0, 109, 109);
+}
+
+.soma {
+  background-color: brown;
+}
